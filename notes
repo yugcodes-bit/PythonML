@@ -1,0 +1,53 @@
+
+
+#1. in built functions
+print("Hello, World!")  # in built function
+    
+a = len("Hello") # len function to calculate the length of string(in built)
+print(a)
+
+
+
+# making your own functions, def (defining func)
+
+def my_func():        
+    print("Hello")
+    print("Bye")
+
+my_func()   # calling the function
+
+# functions with input
+
+def greet(name):  # name = parameter
+    print(f"Hello {name}")
+
+greet("Yugant")  # yugant = argument
+
+#function with 1 or mmore inputs
+
+def greet_with(name, location):
+    print(f"Hello {name} from {location}")
+
+greet_with("abc", "nowhere")
+
+# postional argument
+
+def greet_with(name, location):
+    print(f"Hello {name} from {location}")
+greet_with(location="india", name="you")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
