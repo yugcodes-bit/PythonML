@@ -24,8 +24,12 @@ def decrypt(cipher_text, shift_amount):
 
     print(f"Decoded message: {decrypted_text}")
 
+def cipher(choose):
 
-if direction == "encode":
-    encrypt(text, shift)
-elif direction == "decode":
-    decrypt(text, shift)
+    if choose == "encode":
+        encrypt(text, shift)
+    elif choose == "decode":
+        decrypt(text, shift)
+
+
+cipher(direction)
